@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayuresh Rajesh - Student Dev</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+
+    <div class="page-loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">Loading...</div>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <div class="scroll-progress"></div>
+    </div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Mayuresh Rajesh</h1>
+                <p class="hero-tagline"><span id="typed-text"></span></p>
+                <p class="hero-description">Interested in creating efficient, scalable, and user-centered backend systems.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Mayuresh Rajesh" class="profile-picture">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>As a student developer, I thrive on transforming complex challenges into clean and intuitive digital solutions. My passion for coding is matched by a constant drive to explore emerging technologies and contribute to the open-source community.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies or enjoying a good cup of coffee while reading tech blogs.</p>
+                </div>
+                <div class="skills">
+                    <h3>Skills & Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                        <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                        <div class="skill-item"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+                        <div class="skill-item"><i class="fab fa-cuttlefish"></i><span>C/C++</span></div>
+                        <div class="skill-item"><i class="fab fa-node-js"></i><span>Node.js</span></div>
+                        <div class="skill-item"><i class="fas fa-database"></i><span>MongoDB</span></div>
+                        <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+                        <div class="skill-item"><i class="fab fa-java"></i><span>Java</span></div>
+                        <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4A-fnSLGuuS0H0I9H5T1K27m8OLMkrZMFJg&s" alt="Backend Recipe-Maker Project" class="project-image-actual">
+                    <div class="project-content">
+                        <h3>Backend Recipe-Maker Project</h3>
+                        <p>A recipe maker project solution built with Express, Node.js, and MongoDB. Features include CRUD applications and user authentication.</p>
+                        <div class="project-tech"><span class="tech-tag">Express</span><span class="tech-tag">Node.js</span><span class="tech-tag">MongoDB</span></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/MayureshRajesh/Backend-TestRecipe" target= "blank" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://www.shutterstock.com/image-illustration/3d-glassmorphism-weather-forecast-app-600nw-2132058991.jpg" alt="Weather Dashboard Project" class="project-image-actual">
+                    <div class="project-content">
+                        <h3>Weather Dashboard</h3>
+                        <p>A responsive weather application that provides current weather conditions and forecasts. Built with vanilla JavaScript and integrated with weather APIs.</p>
+                        <div class="project-tech"><span class="tech-tag">JavaScript</span><span class="tech-tag">CSS3</span><span class="tech-tag">API</span></div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHds9LFZNeDyd0p0nvQOwDQvGvo4Aua0sEsw&s" alt="Task Management App" class="project-image-actual">
+                    <div class="project-content">
+                        <h3>StudentCC Website</h3>
+                        <p>Developed a fully responsive promotional website for the StudentCC mobile app, creating a modern UI to effectively showcase key features and drive app downloads.</p>
+                        <div class="project-tech"><span class="tech-tag">HTML5</span><span class="tech-tag">JavaScript</span><span class="tech-tag">CSS3</span></div>
+                        <div class="project-links">
+                            <a href="https://salmanmalvasi.github.io/studentcc-landing.html" target="blank" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/Salmanmalvasi/salmanmalvasi.github.io" target="blank"  class="project-link"><i class="fab fa-github"></i> Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm always interested in hearing about new projects and opportunities. Whether you're looking to hire or just want to say hello, feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item"><i class="fas fa-envelope"></i><span>mayureshrajesh@gmail.com</span></div>
+                        <div class="contact-item"><i class="fas fa-phone"></i><span>7208994201</span></div>
+                        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>VIT Chennai</span></div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mayuresh-rajesh-830b5231b/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/MayureshRajesh" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group"><input type="text" id="name" name="name" placeholder="Your Name" required></div>
+                    <div class="form-group"><input type="email" id="email" name="email" placeholder="Your Email" required></div>
+                    <div class="form-group"><input type="text" id="subject" name="subject" placeholder="Subject" required></div>
+                    <div class="form-group"><textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea></div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <button class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
