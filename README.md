@@ -6,7 +6,7 @@ Check out the live version of my portfolio here: **(https://mayuresh-rajesh.verc
 
 ---
 
-## 🌟 About The Project
+## 🌟About The Project
 
 This repository contains the source code for my personal portfolio website. I created this site to serve as a central hub for my projects, skills, and professional background. It was built from the ground up with a focus on clean design, mobile responsiveness, and a smooth user experience.
 
